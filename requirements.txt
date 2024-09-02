@@ -1,2 +1,3 @@
-#Comando para instalar dependencias de la API
-pip install flask flask-cors openai
+Flask
+flask-cors
+openai
