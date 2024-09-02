@@ -26,9 +26,11 @@ Esta es una API simple construida con Flask y OpenAI que permite a los usuarios 
    Ejecuta el siguiente comando para iniciar el servidor Flask:
    
     ```bash
-     pip install -r requirements.txt
+     python app.py
 
-3. **Realizar solicitudes:**
+Esto iniciará el servidor en http://127.0.0.1:5000/.
+
+2. **Realizar solicitudes:**
     Puedes enviar solicitudes POST a la API en la ruta /api/chat con el siguiente formato JSON:
    
     ```bash
